@@ -3,17 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		D991BCBC24C1876500C4EC27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991BCBB24C1876500C4EC27 /* AppDelegate.swift */; };
 		D991BCBE24C1876500C4EC27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991BCBD24C1876500C4EC27 /* SceneDelegate.swift */; };
 		D991BCC124C1876500C4EC27 /* Memorizing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D991BCBF24C1876500C4EC27 /* Memorizing.xcdatamodeld */; };
-		D991BCC324C1876500C4EC27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991BCC224C1876500C4EC27 /* ContentView.swift */; };
 		D991BCC524C1876600C4EC27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D991BCC424C1876600C4EC27 /* Assets.xcassets */; };
 		D991BCC824C1876600C4EC27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D991BCC724C1876600C4EC27 /* Preview Assets.xcassets */; };
 		D991BCCB24C1876600C4EC27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D991BCC924C1876600C4EC27 /* LaunchScreen.storyboard */; };
+		D991BCD824C18B4000C4EC27 /* MemorizeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991BCD724C18B4000C4EC27 /* MemorizeViewModel.swift */; };
+		D991BCDB24C18BA900C4EC27 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991BCDA24C18BA900C4EC27 /* HomeView.swift */; };
+		D991BCDD24C18C0900C4EC27 /* MemorizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991BCDC24C18C0900C4EC27 /* MemorizeView.swift */; };
+		D991BCDF24C18C3500C4EC27 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991BCDE24C18C3500C4EC27 /* CardView.swift */; };
+		D991BCE124C18C5900C4EC27 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991BCE024C18C5900C4EC27 /* GridView.swift */; };
+		D991BCE424C18C9D00C4EC27 /* MemorizeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991BCE324C18C9D00C4EC27 /* MemorizeModel.swift */; };
+		D991BCE624C18CC300C4EC27 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991BCE524C18CC300C4EC27 /* Theme.swift */; };
+		D991BCE924C18D9500C4EC27 /* Type Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991BCE824C18D9500C4EC27 /* Type Extension.swift */; };
+		D991BCED24C18EA100C4EC27 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991BCEC24C18EA100C4EC27 /* GridLayout.swift */; };
+		D991BCEF24C18EC400C4EC27 /* PieLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991BCEE24C18EC400C4EC27 /* PieLayout.swift */; };
+		D991BCF124C18EDE00C4EC27 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991BCF024C18EDE00C4EC27 /* Cardify.swift */; };
+		D991BCF424C18F5400C4EC27 /* ThemeEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991BCF324C18F5400C4EC27 /* ThemeEditorView.swift */; };
+		D991BCF624C18F7700C4EC27 /* ThemeColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991BCF524C18F7700C4EC27 /* ThemeColorView.swift */; };
+		D991BCF824C18FC600C4EC27 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D991BCF724C18FC600C4EC27 /* Colors.xcassets */; };
+		D991BCFC24C1920F00C4EC27 /* MemorizeThemes.json in Resources */ = {isa = PBXBuildFile; fileRef = D991BCFB24C1920F00C4EC27 /* MemorizeThemes.json */; };
+		D991BCFF24C195BE00C4EC27 /* DynamicColor in Frameworks */ = {isa = PBXBuildFile; productRef = D991BCFE24C195BE00C4EC27 /* DynamicColor */; };
+		D991BD0524C196DE00C4EC27 /* ColorPicker in Frameworks */ = {isa = PBXBuildFile; productRef = D991BD0424C196DE00C4EC27 /* ColorPicker */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +37,25 @@
 		D991BCBB24C1876500C4EC27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D991BCBD24C1876500C4EC27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D991BCC024C1876500C4EC27 /* Memorizing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Memorizing.xcdatamodel; sourceTree = "<group>"; };
-		D991BCC224C1876500C4EC27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D991BCC424C1876600C4EC27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D991BCC724C1876600C4EC27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D991BCCA24C1876600C4EC27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D991BCCC24C1876600C4EC27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D991BCD724C18B4000C4EC27 /* MemorizeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeViewModel.swift; sourceTree = "<group>"; };
+		D991BCDA24C18BA900C4EC27 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D991BCDC24C18C0900C4EC27 /* MemorizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeView.swift; sourceTree = "<group>"; };
+		D991BCDE24C18C3500C4EC27 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		D991BCE024C18C5900C4EC27 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		D991BCE324C18C9D00C4EC27 /* MemorizeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeModel.swift; sourceTree = "<group>"; };
+		D991BCE524C18CC300C4EC27 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		D991BCE824C18D9500C4EC27 /* Type Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Type Extension.swift"; sourceTree = "<group>"; };
+		D991BCEC24C18EA100C4EC27 /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		D991BCEE24C18EC400C4EC27 /* PieLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieLayout.swift; sourceTree = "<group>"; };
+		D991BCF024C18EDE00C4EC27 /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
+		D991BCF324C18F5400C4EC27 /* ThemeEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeEditorView.swift; sourceTree = "<group>"; };
+		D991BCF524C18F7700C4EC27 /* ThemeColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColorView.swift; sourceTree = "<group>"; };
+		D991BCF724C18FC600C4EC27 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		D991BCFB24C1920F00C4EC27 /* MemorizeThemes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MemorizeThemes.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D991BD0524C196DE00C4EC27 /* ColorPicker in Frameworks */,
+				D991BCFF24C195BE00C4EC27 /* DynamicColor in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,11 +90,12 @@
 		D991BCBA24C1876500C4EC27 /* Memorizing */ = {
 			isa = PBXGroup;
 			children = (
-				D991BCBB24C1876500C4EC27 /* AppDelegate.swift */,
-				D991BCBD24C1876500C4EC27 /* SceneDelegate.swift */,
-				D991BCC224C1876500C4EC27 /* ContentView.swift */,
-				D991BCC424C1876600C4EC27 /* Assets.xcassets */,
-				D991BCC924C1876600C4EC27 /* LaunchScreen.storyboard */,
+				D991BCEA24C18E0C00C4EC27 /* Resources */,
+				D991BCE724C18CF400C4EC27 /* Supporting Files */,
+				D991BCE224C18C7400C4EC27 /* Model */,
+				D991BCD924C18B8100C4EC27 /* Views */,
+				D991BCD624C18B1500C4EC27 /* ViewModel */,
+				D991BCD524C187B900C4EC27 /* App */,
 				D991BCCC24C1876600C4EC27 /* Info.plist */,
 				D991BCBF24C1876500C4EC27 /* Memorizing.xcdatamodeld */,
 				D991BCC624C1876600C4EC27 /* Preview Content */,
@@ -76,6 +109,83 @@
 				D991BCC724C1876600C4EC27 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D991BCD524C187B900C4EC27 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D991BCBB24C1876500C4EC27 /* AppDelegate.swift */,
+				D991BCBD24C1876500C4EC27 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D991BCD624C18B1500C4EC27 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D991BCD724C18B4000C4EC27 /* MemorizeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D991BCD924C18B8100C4EC27 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D991BCDA24C18BA900C4EC27 /* HomeView.swift */,
+				D991BCDC24C18C0900C4EC27 /* MemorizeView.swift */,
+				D991BCDE24C18C3500C4EC27 /* CardView.swift */,
+				D991BCE024C18C5900C4EC27 /* GridView.swift */,
+				D991BCF224C18F0A00C4EC27 /* Theme Profiles Views */,
+				D991BCEB24C18E7600C4EC27 /* Supporting functions */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D991BCE224C18C7400C4EC27 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D991BCE324C18C9D00C4EC27 /* MemorizeModel.swift */,
+				D991BCE524C18CC300C4EC27 /* Theme.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D991BCE724C18CF400C4EC27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D991BCC424C1876600C4EC27 /* Assets.xcassets */,
+				D991BCF724C18FC600C4EC27 /* Colors.xcassets */,
+				D991BCC924C1876600C4EC27 /* LaunchScreen.storyboard */,
+				D991BCE824C18D9500C4EC27 /* Type Extension.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D991BCEA24C18E0C00C4EC27 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D991BCFB24C1920F00C4EC27 /* MemorizeThemes.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D991BCEB24C18E7600C4EC27 /* Supporting functions */ = {
+			isa = PBXGroup;
+			children = (
+				D991BCEC24C18EA100C4EC27 /* GridLayout.swift */,
+				D991BCEE24C18EC400C4EC27 /* PieLayout.swift */,
+				D991BCF024C18EDE00C4EC27 /* Cardify.swift */,
+			);
+			path = "Supporting functions";
+			sourceTree = "<group>";
+		};
+		D991BCF224C18F0A00C4EC27 /* Theme Profiles Views */ = {
+			isa = PBXGroup;
+			children = (
+				D991BCF324C18F5400C4EC27 /* ThemeEditorView.swift */,
+				D991BCF524C18F7700C4EC27 /* ThemeColorView.swift */,
+			);
+			path = "Theme Profiles Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +204,10 @@
 			dependencies = (
 			);
 			name = Memorizing;
+			packageProductDependencies = (
+				D991BCFE24C195BE00C4EC27 /* DynamicColor */,
+				D991BD0424C196DE00C4EC27 /* ColorPicker */,
+			);
 			productName = Memorizing;
 			productReference = D991BCB824C1876500C4EC27 /* Memorizing.app */;
 			productType = "com.apple.product-type.application";
@@ -122,6 +236,10 @@
 				Base,
 			);
 			mainGroup = D991BCAF24C1876500C4EC27;
+			packageReferences = (
+				D991BCFD24C195BE00C4EC27 /* XCRemoteSwiftPackageReference "DynamicColor" */,
+				D991BD0324C196DE00C4EC27 /* XCRemoteSwiftPackageReference "ColorPicker" */,
+			);
 			productRefGroup = D991BCB924C1876500C4EC27 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,6 +255,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D991BCCB24C1876600C4EC27 /* LaunchScreen.storyboard in Resources */,
+				D991BCFC24C1920F00C4EC27 /* MemorizeThemes.json in Resources */,
+				D991BCF824C18FC600C4EC27 /* Colors.xcassets in Resources */,
 				D991BCC824C1876600C4EC27 /* Preview Assets.xcassets in Resources */,
 				D991BCC524C1876600C4EC27 /* Assets.xcassets in Resources */,
 			);
@@ -150,9 +270,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				D991BCC124C1876500C4EC27 /* Memorizing.xcdatamodeld in Sources */,
+				D991BCD824C18B4000C4EC27 /* MemorizeViewModel.swift in Sources */,
 				D991BCBC24C1876500C4EC27 /* AppDelegate.swift in Sources */,
-				D991BCC324C1876500C4EC27 /* ContentView.swift in Sources */,
+				D991BCED24C18EA100C4EC27 /* GridLayout.swift in Sources */,
+				D991BCDB24C18BA900C4EC27 /* HomeView.swift in Sources */,
+				D991BCE624C18CC300C4EC27 /* Theme.swift in Sources */,
 				D991BCBE24C1876500C4EC27 /* SceneDelegate.swift in Sources */,
+				D991BCF424C18F5400C4EC27 /* ThemeEditorView.swift in Sources */,
+				D991BCDF24C18C3500C4EC27 /* CardView.swift in Sources */,
+				D991BCF124C18EDE00C4EC27 /* Cardify.swift in Sources */,
+				D991BCE124C18C5900C4EC27 /* GridView.swift in Sources */,
+				D991BCDD24C18C0900C4EC27 /* MemorizeView.swift in Sources */,
+				D991BCF624C18F7700C4EC27 /* ThemeColorView.swift in Sources */,
+				D991BCE924C18D9500C4EC27 /* Type Extension.swift in Sources */,
+				D991BCEF24C18EC400C4EC27 /* PieLayout.swift in Sources */,
+				D991BCE424C18C9D00C4EC27 /* MemorizeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,9 +420,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"Memorizing/Preview Content\"";
-				DEVELOPMENT_TEAM = 97ABMJ7S2N;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Memorizing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,6 +431,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.christopherpersson.Memorizing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -308,9 +441,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"Memorizing/Preview Content\"";
-				DEVELOPMENT_TEAM = 97ABMJ7S2N;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Memorizing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -319,6 +452,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.christopherpersson.Memorizing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -346,6 +480,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D991BCFD24C195BE00C4EC27 /* XCRemoteSwiftPackageReference "DynamicColor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yannickl/DynamicColor";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		D991BD0324C196DE00C4EC27 /* XCRemoteSwiftPackageReference "ColorPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hendriku/ColorPicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D991BCFE24C195BE00C4EC27 /* DynamicColor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D991BCFD24C195BE00C4EC27 /* XCRemoteSwiftPackageReference "DynamicColor" */;
+			productName = DynamicColor;
+		};
+		D991BD0424C196DE00C4EC27 /* ColorPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D991BD0324C196DE00C4EC27 /* XCRemoteSwiftPackageReference "ColorPicker" */;
+			productName = ColorPicker;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		D991BCBF24C1876500C4EC27 /* Memorizing.xcdatamodeld */ = {
